@@ -1,0 +1,54 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-image: url("../assets/home-background.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+  color: #105dc2 !important;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-text {
+  font-size: 1.5rem;
+  color: black !important;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.btn-explorar {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ebbc01;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-explorar:hover {
+  background-color: #ffaa00;
+}

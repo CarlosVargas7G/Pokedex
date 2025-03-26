@@ -1,0 +1,61 @@
+.pokemon-details-container {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon-images {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Fondos por tipo */
+.normal { background-image: url("../assets/backgrounds/normal.jpg"); }
+.fire { background-image: url("../assets/backgrounds/fire.jpg"); }
+.water { background-image: url("../assets/backgrounds/water.jpg"); }
+.electric { background-image: url("../assets/backgrounds/electric.jpg"); }
+.grass { background-image: url("../assets/backgrounds/grass.jpg"); }
+.ice { background-image: url("../assets/backgrounds/ice.jpg"); }
+.fighting { background-image: url("../assets/backgrounds/fighting.jpg"); }
+.poison { background-image: url("../assets/backgrounds/poison.jpg"); }
+.ground { background-image: url("../assets/backgrounds/ground.jpg"); }
+.flying { background-image: url("../assets/backgrounds/flying.jpg"); }
+.psychic { background-image: url("../assets/backgrounds/psychic.jpg"); }
+.bug { background-image: url("../assets/backgrounds/bug.jpg"); }
+.rock { background-image: url("../assets/backgrounds/rock.jpg"); }
+.ghost { background-image: url("../assets/backgrounds/ghost.jpg"); }
+.dragon { background-image: url("../assets/backgrounds/dragon.jpg"); }
+.dark { background-image: url("../assets/backgrounds/dark.jpg"); }
+.steel { background-image: url("../assets/backgrounds/steel.jpg"); }
+.fairy { background-image: url("../assets/backgrounds/fairy.jpg"); }
+
+.default {
+  background-color: #000000 !important;
+}
